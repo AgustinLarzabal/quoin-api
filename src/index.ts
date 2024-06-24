@@ -1,7 +1,8 @@
+import "dotenv/config";
 import app from "./app";
 import { AppDataSource } from "./db/dataSource";
 
-const PORT = process.env.PORT ?? 1234;
+const PORT = process.env.PORT ?? 3000;
 
 async function main() {
   try {
